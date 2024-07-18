@@ -1,0 +1,29 @@
+[package]
+name = "bulk-merge"
+version = "0.1.0"
+authors = ["Eric Rochester <eric.rochester@willowtreeapps.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "*", features = ["derive"] }
+clap-verbosity-flag = "*"
+confy = "*"
+csv = "1.3.0"
+env_logger = "*"
+human-panic = "*"
+log = "*"
+mustache = "0.9.0"
+serde = { version = "1.0.204", features = ["derive"] }
+
+[dev-dependencies]
+assert_cmd = "*"
+# assert_fs = "*"
+# dir-diff = "*"
+# duct = "*"
+# predicates = "*"
+pretty_assertions = "*"
+# rexpect = "*"
+spectral = "*"
+# tempfile = "*"
